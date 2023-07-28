@@ -5,7 +5,11 @@ const typeDefs = `
     }
 
     type Query {
-        timestamp: [Timestamp]
+        timestamps: [Timestamp]
+    }
+
+    type Mutation {
+        createTimestamp(time: String!): Timestamp
     }
 `;
 
