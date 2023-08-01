@@ -8,7 +8,7 @@ const resolvers = {
     },
 
     Mutation: {
-        createTimestamp: async (parent, args) => {
+        addTimestamp: async (parent, args) => {
             const timestamp = await Timestamp.create(args);
             return timestamp;
         }

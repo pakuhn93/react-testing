@@ -9,7 +9,7 @@ const typeDefs = `
     }
 
     type Mutation {
-        createTimestamp(time: String!): Timestamp
+        addTimestamp(time: String!): Timestamp
     }
 `;
 
